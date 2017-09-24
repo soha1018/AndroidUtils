@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SaleProgressView</string>
+    <string name="near_over">快卖完了</string>
+    <string name="over">已售馨</string>
+</resources>
