@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--密码输入框-->
+    <declare-styleable name="PwdText">
+        <!--密码长度-->
+        <attr name="PwdLength" format="integer" />
+        <!--密码框颜色-->
+        <attr name="borderColor" format="color" />
+        <!--密码颜色-->
+        <attr name="pwdColor" format="color" />
+        <!--输入时密码框颜色-->
+        <attr name="inputBorder" format="color" />
+        <!--输入时密码框阴影颜色-->
+        <attr name="borderShadow" format="color" />
+        <!--明文密码字体大小-->
+        <attr name="pwd_textsize" format="dimension" />
+        <!--密码框圆角程度-->
+        <attr name="borderRadius" format="dimension"   />
+        <!--是否使用图片绘制密码框-->
+        <attr name="isDrawBorderImg" format="boolean" />
+        <!--按Back键时，是否需要绘制明文密码-->
+        <attr name="isShowTextPwd" format="boolean" />
+        <!--输入密码时密码框是否有阴影-->
+        <attr name="isShowBorderShadow" format="boolean" />
+        <!--密码框图片-->
+        <attr name="borderImg" format="reference" />
+        <!--输入时变化的密码框图片-->
+        <attr name="inputBorderImg" format="reference" />
+        <!--延迟绘制密码圆点的时间，1000=1s-->
+        <attr name="delayTime" format="integer" />
+        <!--是否只绘制明文密码-->
+        <attr name="clearTextPwd" format="boolean" />
+        <!--是否只绘制圆点-->
+        <attr name="drawPwdPoint" format="boolean" />
+        <!--是否输入密码时不更改密码的颜色-->
+        <attr name="isInputChangeColor" format="boolean" />
+    </declare-styleable>
+</resources>
